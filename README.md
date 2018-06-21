@@ -1,9 +1,7 @@
-# engage-dc
+<h1>consolidated-survey-platform</h1>
 
-Work to support the Lab-sponsored project variously known as:
-* mayors challenge
-* bloomberg mayors challenge
-* consolidated survey platform
-* engageDC
+We're building an easier way for residents to make their voices heard and for DC government to listen. Government decision makers ask questions formatted as short surveys and residents across the City, like you, answer them. This is also our big idea for the 
+<a href="https://mayorschallenge.bloomberg.org/ideas/washington/">
+Bloomberg Mayors Challenge</a>.
 
-Future name is probably SpeakUpDC
+
