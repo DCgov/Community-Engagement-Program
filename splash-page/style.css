@@ -1,7 +1,9 @@
-body {
+.survey {
     height: 100%;
     width: 100%;
     overflow-y: hidden;
+    background-color: #EFEFEF;
+    padding-bottom: 10em;
 }
 
 p {
@@ -14,7 +16,27 @@ p {
 }
 
 h4 {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+h3 {
+    padding: .75em 0em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.opening-header {
+    color: #666666;
     padding-bottom: .5em
+}
+
+.center-btn{
+    margin: 0 auto;
 }
 
 .card {
@@ -23,8 +45,16 @@ h4 {
     border-color: #F2F2F2;
 }
 
+.story-card {
+    padding-bottom: 3em;
+}
+
 .header-top {
     border-top: 11px solid #2B4888
+}
+
+.spacer{
+    padding-bottom: 3em;
 }
 
 .header-main-top {
@@ -62,14 +92,28 @@ h4 {
     height: 100%;
 }
 
-.height-switch{
+.center-text{
+    text-align: center
+}
+
+.height-switch {
     width: 100%;
     height: 800px;
 }
 
+.alt-background{
+    background-color: #f2f2f2; 
+    padding-bottom: 1em;
+}
+
+.header-width{
+    width: 100%;r
+}
+
 /* md bootstrap breakpoint */
-@media (min-width: 768px) { 
+
+@media (min-width: 768px) {
     .height-switch {
         height: 600px;
     }
- }
+}

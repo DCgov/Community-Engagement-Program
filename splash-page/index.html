@@ -14,60 +14,35 @@
         crossorigin="anonymous"></script>
     <title>Mayor's Challenge</title>
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-    <style>
-        p {
-            text-align: left;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        .container {
-            margin-top: 1.7em;
-            margin-bottom: 1.7em;
-        }
-
-        h4 {
-            padding-bottom: .5em
-        }
-
-        .card {
-            border-width: .5em;
-            min-height: 100%;
-            border-color: #F2F2F2;
-        }
-    </style>
 </head>
 
-<body style="text-align: center">
+<body>
 
-    <div class="header">
-        <div style="border-top: 11px solid #2B4888">
-            <div style=" background-image: url(dot.png);
-            min-width: 100%;
-            position: absolute;
-            top: 4px;
-            height: 3px;">
+    <div>
+        <div class="header-top">
+            <div class="header-main-top">
             </div>
         </div>
 
-        <div style="background-color: #ffffff;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        height: 60px;">
-            <div style="width: 100%;">
+        <div class="header-main">
+            <div class="header-width">
                 <a href="dc.gov" target="_blank"></a>
-                <img class="ml-5" src="dcgov_logo.jpg" style="float:left; height: 50px;">
-                <button type="button" class="btn mr-5 mt-2" style="float: right; background-color: white; border-color: lightgrey">
+                <img class="ml-5 dclogo" src="dcgov_logo.jpg">
+                <button type="button" class="btn mr-5 mt-2 website-link">
                     <a href="" target="blank">Website</a>
                 </button>
             </div>
         </div>
-        <div style="border-top: 5px solid #c9c9c9">
+        <div class="header-bottom">
 
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <h1 class="col-12" style="color: #666666; padding-bottom:.5em">DC’s Community Engagement Program
+            <h1 class="col-12 opening-header">DC’s Community Engagement Program
             </h1>
             <br>
             <br>
@@ -80,39 +55,47 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6" style="padding-bottom:2em">
+            <div class="col-12 col-md-6">
                 <h4>See our current survey
                 </h4>
-                <a href="survey.html"><button type="button" class="btn btn-info" style="margin-bottom:.5em">Take the Survey</button></a>
+                <div class="row">
+                    <a href="survey.html" class="center-btn">
+                        <button type="button" class="btn btn-info col-12">Take the Survey</button>
+                    </a>
+                </div>
                 <br>
-                <p style="text-align:center;">(hint: it’s on Housing)
+                <p class="center-text">(hint: it’s on Housing)
                 </p>
             </div>
 
-            <div class="col-12 col-md-6" style="padding-bottom:2em">
+            <div class="col-12 col-md-6">
                 <h4>Sign up to learn more
                 </h4>
-                <button type="button" class="btn btn-info" style="margin: 0 37% 0 37%">Sign up!</button>
+                <div class="row">
+                <a href="" class="center-btn">
+                    <button type="button" class="btn btn-info col-12">Sign up!</button>
+                </a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div style="background-color: #f2f2f2; padding-bottom: 1em;">
+    <div class="alt-background">
 
         <div class="container">
             <h3>What is it?</h3>
-            <p style="padding: 0 1em;">This is a tool to gather opinions from residents about their experiences and priorities. 
-                Its purpose is to spark conversations between government and residents, starting with a quick survey or poll. 
-                People in DC Government then use the results to make decisions, communicate with residents, and drive change. 
-                These results are shared transparently so that residents can see how their feedback has influenced decisions 
-                and the city.</p>
+            <p>This is a tool to gather opinions from residents about their experiences and priorities. Its purpose is to spark
+                conversations between government and residents, starting with a quick survey or poll. People in DC Government
+                then use the results to make decisions, communicate with residents, and drive change. These results are shared
+                transparently so that residents can see how their feedback has influenced decisions and the city.</p>
             <div class="row justify-content">
 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card">
                         <img class="card-img-top" src="img1.PNG" alt="reaching people where they are">
                         <div class="card-body">
-                            <p class="card-text">Government decision makers want public input on a policy or plan, so they do a quick, easy survey of a representative group of residents online, by phone, mail, kiosk, etc.</p>
+                            <p class="card-text">Government decision makers want public input on a policy or plan, so they do a quick, easy survey
+                                of a representative group of residents online, by phone, mail, kiosk, etc.</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +105,8 @@
                         <img class="card-img-top" src="img2.PNG" alt="empowered with information">
                         <div class="card-body">
 
-                            <p class="card-text">Empowered with a convenient way to engage, more residents give their feedback and opinions on issues that matter to them.</p>
+                            <p class="card-text">Empowered with a convenient way to engage, more residents give their feedback and opinions on
+                                issues that matter to them.</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +136,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12" style="padding-bottom: 3em">
+            <div class="col-12">
                 <h3> Why does it matter?</h3>
                 <br>
                 <p>Every day, DC government makes decisions that affect how you and other residents experience life in DC. Every
@@ -161,13 +145,13 @@
                 </p>
             </div>
 
-            <div class="col-12" style="padding-bottom: 3em">
+            <div class="col-12">
                 <h3>How can I get involved?</h3>
                 <br>
                 <p>We are early in the development of this idea (we don’t even have a name for it yet!). We are currently testing
                     our ideas about how this new platform will work. There are two easy ways you can get involved:
                     <br>
-                    <ol style="text-align:left">
+                    <ol>
                         <li>Sign up to join
                             <a href="http://govdelivery.dc.gov/yaddayaddayadda" target="_blank">our mailing list</a> to follow the development of this new program as we take it from idea to
                             practice, and learn about opportunities to shape it along the way.</li>
@@ -182,6 +166,7 @@
 
         </div>
     </div>
+    <div class="spacer"></div>
 
 </body>
 
