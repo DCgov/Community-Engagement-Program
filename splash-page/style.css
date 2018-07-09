@@ -98,7 +98,7 @@ h1 {
 
 .height-switch {
     width: 100%;
-    height: 800px;
+    min-height: 800px;
 }
 
 .alt-background{
@@ -107,13 +107,13 @@ h1 {
 }
 
 .header-width{
-    width: 100%;r
+    width: 100%;
 }
 
 /* md bootstrap breakpoint */
 
 @media (min-width: 768px) {
     .height-switch {
-        height: 600px;
+        min-height: 640px;
     }
 }
