@@ -98,6 +98,7 @@ h1 {
 
 .height-switch {
     width: 100%;
+    min-height: 500px;
     max-height: 560px;
 }
 
@@ -115,5 +116,6 @@ h1 {
 @media (min-width: 768px) {
     .height-switch {
         max-height: 800px;
+        min-height: 600px;
     }
 }
