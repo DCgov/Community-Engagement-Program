@@ -98,7 +98,7 @@ h1 {
 
 .height-switch {
     width: 100%;
-    min-height: 800px;
+    min-height: 640px;
 }
 
 .alt-background{
@@ -114,6 +114,6 @@ h1 {
 
 @media (min-width: 768px) {
     .height-switch {
-        min-height: 640px;
+        min-height: 800px;
     }
 }
