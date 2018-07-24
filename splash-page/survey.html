@@ -14,45 +14,52 @@
         crossorigin="anonymous"></script>
     <title>Mayor's Challenge</title>
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body class="survey">
 
+    <!-- top section -->
     <div>
-        <div class="header-top">
-            <div class="header-main-top">
+        <!-- header -->
+        <div>
+            <div class="header-top">
+                <div class="header-main-top">
+                </div>
+            </div>
+
+            <div class="header-main">
+                <div style="width: 100%;">
+                    <a href="dc.gov" target="_blank">
+                        <img class="ml-5 dclogo" src="style/dcgov_logo.jpg">
+                    </a>
+                    <a href="index.html">
+                        <img class="mr-5 speakuplogo" src="style/SpeakUpDC Identity V_Black.png">
+                    </a>
+                </div>
+            </div>
+            <div class="header-bottom">
             </div>
         </div>
 
-        <div class="header-main">
-            <div style="width: 100%;">
-                <a href="dc.gov" target="_blank"></a>
-                <img class="ml-5 dclogo" src="dcgov_logo.jpg">
-                <button type="button" class="btn mr-5 mt-2 website-link">
-                    <a href="" target="blank">Website</a>
-                </button>
-            </div>
-        </div>
-        <div class="header-bottom">
-
-        </div>
-        <!-- </div>
-    <a href="index.html">TEST?</a>
-    <div> -->
         <div class="my-2 ml-5">
             <a href="index.html">Back</a>
             <br>
-            <a href="survey2.html">Alt survey style</a>
         </div>
     </div>
-    <div class="mt-2 survey-outer">
-        <iframe class="height-switch" src="https://forms.beta.dc.gov/s3/SpeakUpDCHousing2" frameborder="0" style="overflow: hidden"></iframe>
-    </div>
 
-    <!-- <div>
-        <script type="text/javascript" >document.write('<script src="http' + ( ("https:" == document.location.protocol) ? "s" : "") + '://www.surveygizmo.com/s3/4435563/495f01f3437a?__output=embedjs&__ref=' + escape(document.location.origin + document.location.pathname) + '" type="text/javascript" ></scr' + 'ipt>');</script><noscript>Wondering where to get survey responses? Find out <a href="https://www.surveygizmo.com/survey-blog/where-do-i-find-people-to-take-my-survey/">here</a>. <a href="http://www.surveygizmo.com/s3/4435563/495f01f3437a??jsfallback=true">Please take my survey now</a></noscript>
-    </div> -->
+    <!-- survey -->
+    <div class="mt-2 survey-outer">
+        <script type="text/javascript">
+            document.write('<script src="http' + (("https:" == document.location.protocol) ? "s" : "") +
+                '://www.surveygizmo.com/s3/4435563/495f01f3437a?__output=embedjs&__ref=' + escape(document.location
+                    .origin + document.location.pathname) + '" type="text/javascript" ></scr' + 'ipt>');
+        </script>
+        <noscript>Wondering where to get survey responses? Find out
+            <a href="https://www.surveygizmo.com/survey-blog/where-do-i-find-people-to-take-my-survey/">here</a>.
+            <a href="http://www.surveygizmo.com/s3/4435563/495f01f3437a??jsfallback=true">Please take my survey now</a>
+        </noscript>
+    </div>
 
 </body>
 
