@@ -164,6 +164,10 @@ h1 {
     margin-left: 60px;
 }
 
+.survey-link{
+    width: 225px;
+}
+
 /* md bootstrap breakpoint */
 
 @media (min-width: 768px) {
