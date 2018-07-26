@@ -91,13 +91,23 @@ h1 {
 
 .right-logo {
     float: right;
-    line-height: 2.5rem;
+    line-height: 2rem;
+}
+
+.bottom-logo {
+    /*     float: left; */
+    /*     line-height: 2rem; */
+    /*     max-width: 200px;
+    min-width: 40px; */
+    /*     width: 80%; */
+    width: 90%;
+    max-width: 400px;
 }
 
 .website-link {
     float: right;
     background-color: white;
-    border-color: lightgrey
+    border-color: lightgrey;
 }
 
 .header-bottom {
