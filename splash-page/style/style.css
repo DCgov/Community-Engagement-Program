@@ -192,7 +192,11 @@ h1 {
 }
 
 .survey-link {
-    width: 225px;
+    width: 250px;
+}
+
+.card {
+    margin-bottom: 0px !important;
 }
 
 /* md bootstrap breakpoint */
