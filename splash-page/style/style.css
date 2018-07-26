@@ -168,6 +168,14 @@ h1 {
 }
 
 .signup {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+
+.signup-main {
+    padding-top: 6px;
     padding-left: 20px;
     padding-right: 20px;
     height: 50px;
