@@ -42,11 +42,6 @@ h1 {
     margin: 0 auto;
 }
 
-.btn {
-    white-space: normal !important;
-    word-wrap: break-word;
-}
-
 .card {
     min-height: 100%;
     border: 0;
@@ -206,8 +201,12 @@ h1 {
     margin-left: 60px;
 }
 
+
 .survey-link {
-    width: 250px;
+    white-space: normal !important;
+    word-wrap: break-word;
+    width: 80%;
+    max-width: 250px;
 }
 
 .card {
