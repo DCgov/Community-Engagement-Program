@@ -34,7 +34,7 @@ h1 {
 }
 
 .opening-header {
-    color: #666666;
+    columns: #000000;
     padding-bottom: .5em
 }
 
@@ -182,6 +182,14 @@ h1 {
 }
 
 .signup {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+
+.signup-main {
+    padding-top: 6px;
     padding-left: 20px;
     padding-right: 20px;
     height: 50px;
@@ -206,7 +214,11 @@ h1 {
 }
 
 .survey-link {
-    width: 225px;
+    width: 250px;
+}
+
+.card {
+    margin-bottom: 0px !important;
 }
 
 /* md bootstrap breakpoint */
