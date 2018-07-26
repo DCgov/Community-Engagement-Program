@@ -1,5 +1,17 @@
+.survey {
+    height: 100%;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding-bottom: 10em;
+}
+
 p {
     text-align: left;
+}
+
+.container {
+    margin-top: 1.7em;
+    margin-bottom: 1.7em;
 }
 
 h5 {
@@ -21,20 +33,8 @@ h1 {
     text-align: center;
 }
 
-.container {
-    padding-top: 1.7em;
-    padding-bottom: 1.7em;
-}
-
-.survey {
-    height: 100%;
-    width: 100%;
-    background-color: #EFEFEF;
-    padding-bottom: 10em;
-}
-
 .opening-header {
-    columns: #000000;
+    color: #666666;
     padding-bottom: .5em
 }
 
@@ -43,14 +43,9 @@ h1 {
 }
 
 .card {
+    border-width: .5em;
     min-height: 100%;
-    border: 0;
-    border-radius: 0;
-}
-
-.card-img-top {
-    border: 0;
-    border-radius: 0 !important;
+    border-color: #F2F2F2;
 }
 
 .story-card {
@@ -87,7 +82,7 @@ h1 {
 
 .right-logo {
     float: right;
-    line-height: 2.5rem;
+    height: 50px;
 }
 
 .website-link {
@@ -115,10 +110,10 @@ h1 {
     max-height: 560px;
 }
 
-/* .alt-background {
+.alt-background {
     background-color: #f2f2f2;
     padding-bottom: 1em;
-} */
+}
 
 .header-width {
     width: 100%;
@@ -126,28 +121,12 @@ h1 {
 
 .primary-color {
     color: #ffffff;
-    background-color: rgb(0, 174, 239);
+    background-color: #00aeef;
 }
 
-.primary-color a:link,
-.secondary-color a:link,
-.tertiary-color a:link,
-.black a:link {
-    color: white;
-}
-
-.primary-color a:visited,
-.secondary-color a:visited,
-.tertiary-color a:visited,
-.black a:visited {
-    color: white;
-}
-
-.primary-color a:hover,
-.secondary-color a:hover,
-.tertiary-color a:hover,
-.black a:hover {
-    color: yellow;
+.secondary-color {
+    color: #ffffff;
+    background-color: #ec008c;
 }
 
 .tertiary-color {
@@ -159,12 +138,6 @@ h1 {
     color: #ffffff;
     background-color: #000000;
     border-color: #000000;
-}
-
-.grey {
-    color: black;
-    background-color: #ededed;
-    border-color: #ededed;
 }
 
 .signup {
@@ -191,7 +164,7 @@ h1 {
     margin-left: 60px;
 }
 
-.survey-link {
+.survey-link{
     width: 225px;
 }
 
@@ -208,8 +181,21 @@ h1 {
     .speakup-logo-large {
         display: inline;
     }
-    .right-logo {
+
+    .right-logo{
         margin-top: 8px;
         margin-right: 48px;
+
     }
 }
+
+/* @media (min-width:576) {
+    .right-logo {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .left-logo {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+} */
