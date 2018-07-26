@@ -1,0 +1,201 @@
+.survey {
+    height: 100%;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding-bottom: 10em;
+}
+
+p {
+    text-align: left;
+}
+
+.container {
+    margin-top: 1.7em;
+    margin-bottom: 1.7em;
+}
+
+h5 {
+    padding-bottom: .3em;
+    text-align: center;
+}
+
+h4 {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+h3 {
+    padding: .75em 0em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.opening-header {
+    color: #666666;
+    padding-bottom: .5em
+}
+
+.center-btn {
+    margin: 0 auto;
+}
+
+.card {
+    border-width: .5em;
+    min-height: 100%;
+    border-color: #F2F2F2;
+}
+
+.story-card {
+    padding-bottom: 3em;
+}
+
+.header-top {
+    border-top: 11px solid #2B4888
+}
+
+.spacer {
+    padding-bottom: 3em;
+}
+
+.header-main-top {
+    background-image: url(dot.png);
+    min-width: 100%;
+    position: absolute;
+    top: 4px;
+    height: 3px;
+}
+
+.header-main {
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 80px;
+}
+
+.left-logo {
+    float: left;
+    height: 50px;
+}
+
+.right-logo {
+    float: right;
+    height: 50px;
+}
+
+.website-link {
+    float: right;
+    background-color: white;
+    border-color: lightgrey
+}
+
+.header-bottom {
+    border-top: 5px solid #c9c9c9
+}
+
+.survey-outer {
+    width: 100%;
+    height: 100%;
+}
+
+.center-text {
+    text-align: center
+}
+
+.height-switch {
+    width: 100%;
+    min-height: 500px;
+    max-height: 560px;
+}
+
+.alt-background {
+    background-color: #f2f2f2;
+    padding-bottom: 1em;
+}
+
+.header-width {
+    width: 100%;
+}
+
+.primary-color {
+    color: #ffffff;
+    background-color: #00aeef;
+}
+
+.secondary-color {
+    color: #ffffff;
+    background-color: #ec008c;
+}
+
+.tertiary-color {
+    color: #ffffff;
+    background-color: #753bbd;
+}
+
+.black {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.signup {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+
+.speakup-logo-small {
+    display: inline;
+}
+
+.speakup-logo-large {
+    display: none;
+}
+
+.right-logo {
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+.left-logo {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.survey-link{
+    width: 225px;
+}
+
+/* md bootstrap breakpoint */
+
+@media (min-width: 768px) {
+    .height-switch {
+        max-height: 800px;
+        min-height: 600px;
+    }
+    .speakup-logo-small {
+        display: none;
+    }
+    .speakup-logo-large {
+        display: inline;
+    }
+
+    .right-logo{
+        margin-top: 8px;
+        margin-right: 48px;
+
+    }
+}
+
+/* @media (min-width:576) {
+    .right-logo {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .left-logo {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+} */
