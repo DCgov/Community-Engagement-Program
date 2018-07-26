@@ -2,6 +2,10 @@ p {
     text-align: left;
 }
 
+li {
+    padding-bottom: 1.5rem;
+}
+
 h5 {
     padding-bottom: .3em;
     text-align: center;
@@ -200,7 +204,6 @@ h1 {
     margin-top: 10px;
     margin-left: 60px;
 }
-
 
 .survey-link {
     white-space: normal !important;
