@@ -42,6 +42,11 @@ h1 {
     margin: 0 auto;
 }
 
+.btn {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
 .card {
     min-height: 100%;
     border: 0;
