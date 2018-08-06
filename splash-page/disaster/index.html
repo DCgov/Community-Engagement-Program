@@ -47,13 +47,16 @@
 
     <!-- survey -->
     <div class="mt-2 survey-outer">
-        <script src="https://www.surveygizmo.com/s3/4488905/0ed4bc0ca1f0?__output=embedjs&__ref=' + escape(document.location
-                    .origin + document.location.pathname) + '" type="text/javascript">
+        <script src="https://www.surveygizmo.com/s3/4488905/0ed4bc0ca1f0?__output=embedjs&__ref='" + encodeURI(document.location.origin + document.location.pathname) + "'" type="text/javascript">
         </script>
-        <noscript>Learn from
-            <a href="https://www.surveygizmo.com/survey-blog/brand-awareness-surveys-are-critical-for-an-effective-marketing-plan/">SurveyGizmo</a> experts that, by surveying your customers about your brand, you can gain valuable insight into
-            specific areas of knowledge and associations.
-            <a href="http://www.surveygizmo.com/s3/4488905/0ed4bc0ca1f0??jsfallback=true">Please take my survey now</a>
+        <noscript>
+            <div class="container">
+                <p class="alert alert-primary" role="alert">
+                    Hello there, it looks like you don't have javascript enabled. For the best experience, we recommend that you enable javascript.
+                    However, you can still take the survey.
+                    <a href="http://www.surveygizmo.com/s3/4488905/0ed4bc0ca1f0?jsfallback=true">Please take me to my survey now</a>
+                </p>
+            </div>
         </noscript>
         <style>
             .sg-survey {
