@@ -44,12 +44,15 @@
 
     <!-- survey -->
     <div class="mt-2 survey-outer">
-        <script src="https://www.surveygizmo.com/s3/4488929/3ae41aba5e2f?__output=embedjs&__ref=' + escape(document.location
-                    .origin + document.location.pathname) + '" type="text/javascript">
+        <script src="https://www.surveygizmo.com/s3/4488929/3ae41aba5e2f?__output=embedjs&__ref='" + encodeURI(document.location.origin + document.location.pathname) + "'" type="text/javascript">
         </script>
-        <noscript>Set survey goals in
-            <a href="https://www.surveygizmo.com/survey-blog/importance-of-survey-goals/">SurveyGizmo</a>.
-            <a href="http://www.surveygizmo.com/s3/4488929/3ae41aba5e2f??jsfallback=true">Please take my survey now</a>
+        <noscript>
+            <div class="container">
+                <p class="alert alert-primary" role="alert">
+                    Hello there, it looks like you don't have javascript enabled, and some things may not work as expected on this site.
+                    <a href="http://www.surveygizmo.com/s3/4488929/3ae41aba5e2f?jsfallback=true">Please take me to the sign up anyway</a>
+                </p>
+            </div>
         </noscript>
         <style>
             .sg-survey {
